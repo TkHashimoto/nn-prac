@@ -8,10 +8,6 @@ from functools import reduce
 """
 	Practice of Naive Parceptron
 """
-class Unit:
-	def __init__(self):
-		self.coef = 0.0
-
 def StepFunc(val):
 	return -1 if val<0 else 1
 
